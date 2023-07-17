@@ -2,8 +2,13 @@
 // It is released for free under the MIT open source license (https://github.com/snozbot/fungus/blob/master/LICENSE)
 
 using UnityEngine;
-using UnityEditor.Experimental.AssetImporters;
 using System.IO;
+
+#if UNITY_2020_2_OR_NEWER
+	using UnityEditor.AssetImporters;
+#else
+	using UnityEditor.Experimental.AssetImporters;
+#endif
 
 namespace Fungus.EditorUtils
 {
