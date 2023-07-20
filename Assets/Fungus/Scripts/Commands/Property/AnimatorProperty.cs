@@ -200,7 +200,7 @@ namespace Fungus
                         case Property.WriteDefaultValuesOnDisable:
                             iob.Value = target.writeDefaultValuesOnDisable;
                             break;
-#else
+#elif UNITY_2018_1_OR_NEWER
                         case Property.KeepAnimatorControllerStateOnDisable:
                             iob.Value = target.keepAnimatorControllerStateOnDisable;
                             break;
@@ -263,7 +263,7 @@ namespace Fungus
                         case Property.WriteDefaultValuesOnDisable:
                             target.writeDefaultValuesOnDisable = iob.Value;
                             break;
-#else
+#elif UNITY_2018_1_OR_NEWER
                         case Property.KeepAnimatorControllerStateOnDisable:
                             target.keepAnimatorControllerStateOnDisable = iob.Value;
                             break;
