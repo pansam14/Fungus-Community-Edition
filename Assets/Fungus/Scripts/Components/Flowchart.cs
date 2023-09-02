@@ -8,6 +8,7 @@ using System.Text;
 using System.Linq;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using Fungus.Lua;
 
 namespace Fungus
 {
