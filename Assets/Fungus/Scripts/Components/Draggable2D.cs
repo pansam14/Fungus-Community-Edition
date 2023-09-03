@@ -5,6 +5,7 @@
 using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
 using System.Collections.Generic;
+using Fungus.DentedPixel;
 
 namespace Fungus
 {

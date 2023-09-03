@@ -7,6 +7,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Fungus.Lua;
+using Fungus.DentedPixel;
 
 namespace Fungus
 {

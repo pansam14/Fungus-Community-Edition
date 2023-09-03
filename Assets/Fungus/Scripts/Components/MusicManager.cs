@@ -3,6 +3,7 @@
 
 using UnityEngine;
 using UnityEngine.Audio;
+using Fungus.DentedPixel;
 
 namespace Fungus
 {
